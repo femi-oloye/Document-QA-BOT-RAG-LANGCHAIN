@@ -38,7 +38,7 @@ This project is for educational/demo purposes. Do not upload sensitive data.
 
 ## Screenshot
 
-.venv/Document-QA-BOT-RAG-LANGCHAIN/Screenshot 2025-05-20 at 13-19-43 📄 Document QA Bot.png
+![AIt Text](.venv/Document-QA-BOT-RAG-LANGCHAIN/Screenshot 2025-05-20 at 13-19-43 📄 Document QA Bot.png)
 
 
 ---
