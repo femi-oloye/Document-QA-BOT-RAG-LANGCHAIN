@@ -55,6 +55,6 @@ git push -u origin main
 ```
 
 
-    👤 Built by oluwafemi oloye — AI Engineer | AI automation engineer | ml engineer
-    💼 Portfolio: https://femi-oloye.github.io/Portfolio/
-    📬 Reach me on [linkedin](https://www.linkedin.com/in/oluwafemi-oloye-a3b772353/)
+👤 Built by oluwafemi oloye — AI Engineer | AI automation engineer | ml engineer
+💼 Portfolio: [my portfolio](https://femi-oloye.github.io/Portfolio/)
+📬 Reach me on [LinkedIn](https://www.linkedin.com/in/oluwafemi-oloye-a3b772353/).
