@@ -7,12 +7,21 @@ from langchain.memory import ConversationBufferMemory
 import os
 from dotenv import load_dotenv
 
+import os
+import streamlit as st
+
+# Use Streamlit secrets if available, else fallback to env
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+
 def load_vectorstore(path="/home/oluwafemi/Document-QA-BOT/.venv/Document-QA-BOT-RAG-LANGCHAIN/faiss_index"):
     """
     Load the FAISS index from disk.
     """
     load_dotenv()
-    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+    OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+    os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
     embeddings = OpenAIEmbeddings()
     return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)
 
