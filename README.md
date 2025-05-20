@@ -52,11 +52,9 @@ git commit -m "Initial commit: Document QA Bot with LangChain and Streamlit"
 git branch -M main
 git remote add origin https://github.com/your-username/Document-QA-BOT.git
 git push -u origin main
+```
 
-✅ Bonus: Make It Portfolio-Worthy
 
-Add this to your README.md or GitHub description:
-
-    👤 Built by [Your Name] — AI Engineer | Prompt Engineer | Data Specialist
-    💼 Portfolio: [your-portfolio-link]
-    📬 Reach me on [LinkedIn or Email]
+    👤 Built by oluwafemi oloye — AI Engineer | AI automation engineer | ml engineer
+    💼 Portfolio: https://femi-oloye.github.io/Portfolio/
+    📬 Reach me on https://www.linkedin.com/in/oluwafemi-oloye-a3b772353/
